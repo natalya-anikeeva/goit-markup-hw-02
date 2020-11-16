@@ -1,0 +1,283 @@
+/* логотип web, ссылки (акцент) background:#2196F3;
+логотип studio color: #000000;
+основной color: #212121;
+вторичный color: #757575;
+эффективные решения для вашего бизнеса color: #FFFFFF;
+цвет секции наша команда background:#F5F4FA
+футер background: #2F303A  color: rgba(255, 255, 255, 0.6);
+ */
+
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-white-color: #ffffff;
+}
+
+/*Общие*/
+body {
+  background: var(--text-white-color);
+  color: #757575;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo1 {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo2 {
+  color: #000000;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+/*Site nav*/
+.site-nav a {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.adress a {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.adress a:hover,
+.adress a:focus {
+  color: var(--accent-color);
+}
+
+/*Контент*/
+.hero {
+  background: #2f303a;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+h1 {
+  color: var(--text-white-color);
+}
+
+h2 {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+h3 {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feautures-text {
+  font-weight: 40;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/*Футер*/
+.footer {
+  background: #2f303a;
+}
+
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.uppercase {
+  color: var(--text-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/*Портфолио*/
+
+.examples-all,
+.examples-web,
+.examples-app,
+.examples-design,
+.examples-market {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.examples-buttons .examples-all {
+  background: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.examples-buttons .examples-web {
+  background: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.examples-buttons .examples-app {
+  background: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.examples-buttons .examples-design {
+  background: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.examples-buttons .examples-market {
+  background: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.examples-buttons .examples-all:hover,
+.examples-buttons .examples-all:focus {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+.examples-buttons .examples-web:hover,
+.examples-buttons .examples-web:focus {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+.examples-buttons .examples-app:hover,
+.examples-buttons .examples-app:focus {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+.examples-buttons .examples-design:hover,
+.examples-buttons .examples-design:focus {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+.examples-buttons .examples-market:hover,
+.examples-buttons .examples-market:focus {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+
+.examples-links .examples-description {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+
+.examples-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.examples-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.illustration-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.examples-type {
+  color: #757575;
+}
+
+.footer-link {
+  color: var(--text-white-color);
+}
+
+.adress-footer {
+  color: #ffffff;
+}
+
+/*Кнопки*/
+.button {
+  background: var(--accent-color);
+  color: var(--text-white-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background: var(--text-white-color);
+}
+
+.link-items:focus,
+.link-items:hover {
+  background: var(--accent-color);
+}
+
+a {
+  text-decoration: none;
+}
